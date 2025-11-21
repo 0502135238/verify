@@ -1,0 +1,14 @@
+{
+  "name": "verify-cli",
+  "version": "1.0.0",
+  "description": "Verify CLI tool",
+  "main": "index.js",
+  "bin": {
+    "vfy": "./index.js",
+    "verifysec": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

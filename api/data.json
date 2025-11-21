@@ -1,0 +1,220 @@
+{
+  "repos": [
+    {
+      "repoName": "AI-chatbot-",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/0502135238/AI-chatbot-",
+      "scans": [
+        {
+          "issues": [
+            "Sensitive .env file detected: test.env",
+            "MongoDB connection string found in test.env"
+          ],
+          "scannedAt": "2025-11-21T14:34:48.065Z"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "repoName": "usd-payments-mvp",
+      "sourceType": "local",
+      "sourceUrl": null,
+      "scans": [
+        {
+          "issues": [
+            "Sensitive .env file detected: C:\\Users\\User\\usd-payments-mvp\\.env",
+            "Stripe live secret key found in C:\\Users\\User\\usd-payments-mvp\\.env"
+          ],
+          "scannedAt": "2025-11-21T14:50:52.048Z"
+        },
+        {
+          "issues": [
+            "Sensitive .env file detected: C:\\Users\\User\\usd-payments-mvp\\.env",
+            "Stripe live secret key found in C:\\Users\\User\\usd-payments-mvp\\.env",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\axios\\lib\\core\\mergeConfig.js",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\axios\\lib\\helpers\\resolveConfig.js",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\call-bind-apply-helpers\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\call-bound\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\dotenv\\config.d.ts",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\dotenv\\config.js",
+            "Postgres connection string found in C:\\Users\\User\\usd-payments-mvp\\node_modules\\dotenv\\README.md",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\dunder-proto\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\es-define-property\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\es-errors\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\es-object-atoms\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\es-set-tostringtag\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\get-proto\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\gopd\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\has-symbols\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\has-tostringtag\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\hasown\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\iconv-lite\\.idea\\codeStyles\\codeStyleConfig.xml",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\math-intrinsics\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\nodemailer\\.release-please-config.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\nodemailer\\eslint.config.js",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\qs\\.editorconfig",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel\\.editorconfig",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel-list\\.editorconfig",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel-list\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel-map\\.editorconfig",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel-map\\tsconfig.json",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel-weakmap\\.editorconfig",
+            "Config file may contain secrets: C:\\Users\\User\\usd-payments-mvp\\node_modules\\side-channel-weakmap\\tsconfig.json"
+          ],
+          "scannedAt": "2025-11-21T14:56:02.038Z"
+        },
+        {
+          "issues": [
+            "Sensitive .env file detected: C:\\Users\\User\\usd-payments-mvp\\.env",
+            "Stripe live secret key found in C:\\Users\\User\\usd-payments-mvp\\.env"
+          ],
+          "scannedAt": "2025-11-21T15:02:50.823Z"
+        },
+        {
+          "issues": [
+            "Sensitive .env file detected: C:\\Users\\User\\usd-payments-mvp\\.env",
+            "Stripe live secret key found in C:\\Users\\User\\usd-payments-mvp\\.env",
+            "Stack trace exposure risk in C:\\Users\\User\\usd-payments-mvp\\index.js"
+          ],
+          "scannedAt": "2025-11-21T15:16:38.996Z"
+        },
+        {
+          "issues": [
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Sensitive .env file detected: C:\\Users\\User\\usd-payments-mvp\\.env",
+              "hint": "Never commit .env files. Use environment variables or secret managers."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Stripe live secret key found in C:\\Users\\User\\usd-payments-mvp\\.env",
+              "hint": "Use test keys in dev. Never commit live keys."
+            },
+            {
+              "category": "Errors",
+              "severity": "Medium",
+              "message": "Stack trace exposure risk in C:\\Users\\User\\usd-payments-mvp\\index.js",
+              "hint": "Disable stack traces in production. Use generic error messages."
+            }
+          ],
+          "scannedAt": "2025-11-21T16:08:05.359Z"
+        },
+        {
+          "issues": [
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Sensitive .env file detected: C:\\Users\\User\\usd-payments-mvp\\.env",
+              "hint": "Never commit .env files. Use environment variables or secret managers."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Stripe live secret key found in C:\\Users\\User\\usd-payments-mvp\\.env",
+              "hint": "Use test keys in dev. Never commit live keys."
+            },
+            {
+              "category": "Errors",
+              "severity": "Medium",
+              "message": "Stack trace exposure risk in C:\\Users\\User\\usd-payments-mvp\\index.js",
+              "hint": "Disable stack traces in production. Use generic error messages."
+            }
+          ],
+          "scannedAt": "2025-11-21T16:15:01.700Z"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "repoName": "cli",
+      "sourceType": "local",
+      "sourceUrl": null,
+      "scans": [
+        {
+          "issues": [
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "AWS secret key reference in index.js",
+              "hint": "Remove AWS secrets from code. Use environment variables or secret managers."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Private key content found in index.js",
+              "hint": "Remove private keys from source code. Store them securely."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Sensitive .env file detected: test.env",
+              "hint": "Never commit .env files. Use environment variables or secret managers."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "AWS secret key reference in test.env",
+              "hint": "Remove AWS secrets from code. Use environment variables or secret managers."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Hardcoded password found in test.env",
+              "hint": "Never hardcode passwords. Use env vars or secure vaults."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "API key found in test.env",
+              "hint": "Rotate API keys and store them outside code."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Stripe live secret key found in test.env",
+              "hint": "Use test keys in dev. Never commit live keys."
+            },
+            {
+              "category": "Secrets",
+              "severity": "High",
+              "message": "MongoDB connection string found in test.env",
+              "hint": "Move DB connection strings to env vars."
+            },
+            {
+              "category": "Secrets",
+              "severity": "High",
+              "message": "JWT token found in test.env",
+              "hint": "Never commit JWTs. Generate them dynamically."
+            }
+          ],
+          "scannedAt": "2025-11-21T16:17:49.383Z"
+        },
+        {
+          "issues": [
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "AWS secret key reference in index.js",
+              "hint": "Remove AWS secrets from code. Use environment variables or secret managers."
+            },
+            {
+              "category": "Secrets",
+              "severity": "Critical",
+              "message": "Private key content found in index.js",
+              "hint": "Remove private keys from source code. Store them securely."
+            }
+          ],
+          "scannedAt": "2025-11-21T16:35:48.893Z"
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "stats": {
+    "totalIssuesDetected": 58,
+    "totalScans": 3
+  }
+}

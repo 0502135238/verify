@@ -1,0 +1,78 @@
+[
+  {
+    "repoName": "cli",
+    "sourceType": "local",
+    "sourceUrl": null,
+    "scans": [
+      {
+        "scannedAt": "2025-11-21T13:00:58.380Z",
+        "issuesCount": 0,
+        "issues": []
+      },
+      {
+        "scannedAt": "2025-11-21T13:10:03.947Z",
+        "issuesCount": 0,
+        "issues": []
+      },
+      {
+        "scannedAt": "2025-11-21T13:13:08.109Z",
+        "issuesCount": 2,
+        "issues": [
+          "AWS secret key found in index.js",
+          "Private key content found in index.js"
+        ]
+      },
+      {
+        "scannedAt": "2025-11-21T13:13:51.041Z",
+        "issuesCount": 2,
+        "issues": [
+          "AWS secret key found in index.js",
+          "Private key content found in index.js"
+        ]
+      },
+      {
+        "scannedAt": "2025-11-21T13:15:29.902Z",
+        "issuesCount": 6,
+        "issues": [
+          "AWS secret key found in index.js",
+          "Private key content found in index.js",
+          "Sensitive .env file detected: test.env",
+          "AWS secret key found in test.env",
+          "Password assignment found in test.env",
+          "API key found in test.env"
+        ]
+      },
+      {
+        "scannedAt": "2025-11-21T13:22:58.576Z",
+        "issuesCount": 9,
+        "issues": [
+          "AWS secret key reference in index.js",
+          "Private key content found in index.js",
+          "Sensitive .env file detected: test.env",
+          "AWS secret key reference in test.env",
+          "Hardcoded password found in test.env",
+          "API key found in test.env",
+          "Stripe live secret key found in test.env",
+          "MongoDB connection string found in test.env",
+          "JWT token found in test.env"
+        ]
+      },
+      {
+        "scannedAt": "2025-11-21T13:33:59.016Z",
+        "issuesCount": 9,
+        "issues": [
+          "AWS secret key reference in index.js",
+          "Private key content found in index.js",
+          "Sensitive .env file detected: test.env",
+          "AWS secret key reference in test.env",
+          "Hardcoded password found in test.env",
+          "API key found in test.env",
+          "Stripe live secret key found in test.env",
+          "MongoDB connection string found in test.env",
+          "JWT token found in test.env"
+        ]
+      }
+    ],
+    "verified": false
+  }
+]
